@@ -1,6 +1,66 @@
+# Companies Manager for CDPC
+
+## Overview
+
+This project consists of a React Native front end and a Node.js backend.
+
+## Prerequisites
+
+Before running the project, make sure you have the following installed:
+
+- Node.js
+- npm or yarn
+- React Native CLI
+
+## Frontend (React Native)
+
+1. Navigate to the `Frontend` directory:
+
+```
+cd Frontend
+```
+
+2. Install dependencies:
+
+```
+npm install
+```
+   or
+```
+yarn install
+```
+
+3. Run the application:
+
+```
+npx react-native run-android
+```
+
+## Backend (Node.js)
+
+1. Navigate to the `Backend` directory:
+
+```
+cd Backend
+```
+
+2. Install dependencies:
+
+```
+npm install
+```
+  
+
+3. Start the server:
+
+```
+node index.js
+```
+
+
 # Frontend
 
-# Company_Details Component
+## Company_Details Component
 
 The `Company_Details` component is designed for managing company details within a React Native application. It includes features such as handling CTC (Cost to Company), stipend, job location, category selection, and eligible degree selection.
 
